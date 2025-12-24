@@ -19,7 +19,7 @@ This project implements a **real-time lux meter** using an **ESP8266 NodeMCU** m
 ## 🔌 Circuit Connection
 3.3V → 10kΩ → A0 → LDR → GND
 ## 🔌 Circuit Diagram
-![ESP8266 NodeMCU Lux Meter Circuit](images/circuit.png)
+![ESP8266 NodeMCU Lux Meter Circuit](images/circuit.jpg)
 
 ## ⚡ Functionality
 - The LDR and resistor form a voltage divider.
