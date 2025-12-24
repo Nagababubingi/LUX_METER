@@ -17,3 +17,25 @@ This project implements a **real-time lux meter** using an **ESP8266 NodeMCU** m
 - Breadboard and jumper wires
 
 ## 🔌 Circuit Connection
+3.3V → 10kΩ → A0 → LDR → GND
+## 🔌 Circuit Diagram
+![ESP8266 NodeMCU Lux Meter Circuit](images/circuit.png)
+
+## ⚡ Functionality
+- The LDR and resistor form a voltage divider.
+- The ESP8266 reads the analog input and converts it to resistance.
+- Resistance is translated to an approximate lux value.
+- Lux values are shown live on both the web UI and via OTA updates.
+
+## 📝 Usage
+1. Flash the firmware to the NodeMCU.
+2. Connect to WiFi.
+3. Open a browser and visit the device IP to view the web UI.
+4. Use OTA to update firmware remotely if needed.
+
+## 📂 Repo Contents
+- `src/` — Project source code
+- `platformio.ini` — PlatformIO project configuration
+- `README.md` — This file
+
+---
